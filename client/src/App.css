@@ -1,0 +1,8 @@
+/* #mobImg img{
+  height: 278px !important;
+  width: 278px !important;
+ } */
+
+ .input::placeholder{
+  padding-left: -20px;
+ }
