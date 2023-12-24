@@ -16,7 +16,7 @@ const Header = ({ setMobiles }) => {
 
     const handleSearch = async () => {
         try {
-            const response = await fetch('http://localhost:3001/api/mobiles/search');
+            const response = await fetch('https://mobileorderingclonebackend5.onrender.com/api/mobiles/search');
             const data = await response.json();
 
             // Filter the data based on searchParams
