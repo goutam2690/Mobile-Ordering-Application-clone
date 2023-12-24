@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import Cart from "./cart/Cart.jsx"
-import Footer from "./components/footer/footer.jsx"
+import Footer from "./components/footer/Footer.jsx"
 import Header from "./components/header/Header.jsx"
 import MobileCard from "./components/mobileCard/MobileCard.jsx"
 
