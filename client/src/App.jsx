@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import Cart from "./cart/Cart"
-import Footer from "./components/footer/footer"
-import Header from "./components/header/Header"
-import MobileCard from "./components/mobileCard/MobileCard"
+import Cart from "./cart/Cart.jsx"
+import Footer from "./components/footer/footer.jsx"
+import Header from "./components/header/Header.jsx"
+import MobileCard from "./components/mobileCard/MobileCard.jsx"
 
 
 const App = () => {
