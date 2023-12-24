@@ -1,25 +1,12 @@
-/* #mobImg img{
-  height: 278px !important;
-  width: 278px !important;
- } */
+
 
 .input::placeholder {
   padding-left: -20px;
 }
 
 @media (max-width: 500px) {
-
-  .inputDiv .input{
-    position: relative;
-    top: 50px;
-    right: 270px;
-    text-align: center;
-  }
-  .menu{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    left: 50px;
+  .menu nav{
+    display: none;
     
   }
   .slogan {
