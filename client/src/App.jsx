@@ -15,7 +15,7 @@ const App = () => {
 
   const fetchMobiles = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/mobiles');
+      const response = await fetch('https://mobileorderingclonebackend5.onrender.com/api/mobiles');
       const data = await response.json();
       setMobiles(data);
     } catch (error) {
