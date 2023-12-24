@@ -42,13 +42,13 @@ const Header = ({ setMobiles }) => {
 
     return (
         <>
-            <header className="bg-gradient-to-r from-blue-700 via-blue-900 to-indigo-900 p-4">
+           <header className="bg-gradient-to-r from-blue-700 via-blue-900 to-indigo-900 p-4">
                 <div className="container mx-auto flex justify-between items-center flex-col lg:flex-row">
                     <div className="flex items-center">
                         <h1 className="text-3xl font-extrabold mb-2 lg:mb-0 tracking-tight text-white">📱 MobileHub</h1>
                         <p className="slogan text-sm opacity-80 lg:ml-3 lg:mb-0 text-white">Your tech sanctuary for mobile wonders.</p>
                     </div>
-                    <div className="menu flex flex-row justify-center items-center lg:ml-6 space-x-4">
+                    <div className="menu flex flex-row xs:flex-col justify-center items-center lg:ml-6 space-x-4">
                         <nav className="space-x-4">
                             <a href="#" className="text-white hover:underline">Home</a>
                             <a href="#" className="text-white hover:underline">Products</a>
