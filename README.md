@@ -27,7 +27,7 @@ Welcome to MobileHub, where you can explore and discover the latest and top-rate
 1. Clone the repository:
 
    ```bash
-   git clone (https://github.com/goutam2690/Mobile-Ordering-Application-clone.git)
+   git clone https://github.com/goutam2690/Mobile-Ordering-Application-clone.git
 
    ```
 
